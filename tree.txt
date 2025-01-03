@@ -1,0 +1,1 @@
+Project Tree: tree -P *.java -I target|out|node_modules echo  echo Java Files Content: find . -name *.java -not -path ./target/* -not -path ./out/* -not -path ./node_modules/* -exec echo ===== {} ===== ; -exec cat {} ;
