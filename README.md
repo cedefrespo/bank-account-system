@@ -46,7 +46,7 @@ To test the API, import the provided `postman_collection.json` into Postman. Thi
 3. Select the `postman_collection.json` file from the project folder.
 4. The collection will appear in Postman, and you can use it to send requests to the running API.
 
-## Endpoints
+## Request example
 ### POST /transactions
 Create a new transaction (deposit or withdrawal).
 **Request Body**:
